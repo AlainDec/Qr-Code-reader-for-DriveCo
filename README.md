@@ -1,7 +1,7 @@
 # DriveCoQrCodeV2
-Reading QR Code and Bar Code with React Native
 
 Reading a QR Code or a barcode with React Native.  
+
 Test with a web link pointing to https://www.pirates-corsaires.com  
 
 ![1_DriveCoQrCodeV2](https://user-images.githubusercontent.com/35977024/192251546-f0ecb653-1d80-4c5a-9de1-93257bf17c74.png)
