@@ -1,0 +1,33 @@
+LIENS
+
+QR CODE
+https://github.com/moaazsidat/react-native-qrcode-scanner
+
+Exemple suivi :
+https://codemaker2016.medium.com/qr-code-scanner-app-in-react-native-cada2857b7f0
+
+-------------------
+NE PAS FAIRE :
+nous propose d'installer caméra en premier Le lien est déprécié et nous amène maintenant à :
+https://github.com/mrousavy/react-native-vision-camera
+et le guide d'install : https://mrousavy.com/react-native-vision-camera/docs/guides/
+
+$ npm i react-native-vision-camera
+-------------------
+
+$ npm install react-native-camera --save
+
+Fichier /android/src/main/AndroidManifest.xml
+Ajouter :
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.VIBRATE"/>
+<!-- optionally, if you want to record audio: -->
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+$ npm install react-native-qrcode-scanner --save
+
+$ npx react-native start
+$ npx react-native run-android
+
+Créer un build APK
+$ npx react-native run-android --variant=release
