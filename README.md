@@ -1,4 +1,4 @@
-# DriveCoQrCodeV2
+# Qr Code reader
 
 Reading a QR Code or a barcode with React Native.  
 
